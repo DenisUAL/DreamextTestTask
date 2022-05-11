@@ -1,6 +1,6 @@
 import Localbase from "localbase";
 import jwt from "jsonwebtoken";
-import TOKEN_SECRET from "../../dotEnvImitation";
+import TOKEN_SECRET from "../dotEnvImitation";
 let db = new Localbase("db");
 db.config.debug = false;
 

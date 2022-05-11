@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const JsonPlaceholderAxios = axios.create({
-  baseURL: `http://jsonplaceholder.typicode.com`,
+  baseURL: `https://jsonplaceholder.typicode.com`,
 });
 
 export const post = (url, body) => {

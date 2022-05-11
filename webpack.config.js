@@ -7,8 +7,9 @@ module.exports = {
   entry: ["babel-polyfill", "./src/index.js"],
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "build"),
   },
+  resolve: { fallback: {stream: require.resolve('stream-browserify')}},
   plugins: [
     new HtmlWebPackPlugin({
       template: path.resolve(__dirname, "public/index.html"),
