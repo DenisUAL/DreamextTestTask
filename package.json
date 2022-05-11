@@ -1,13 +1,16 @@
 {
   "name": "dreamext-test-task",
   "version": "1.0.0",
+  "homepage": " https://denisual.github.io",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:dev": "webpack --mode='development'",
     "build:prod": "webpack --mode='production'",
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "predeploy": "npm run build:dev",
+    "deploy": "gh-pages -d build:dev"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +25,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
