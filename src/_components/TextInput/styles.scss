@@ -1,0 +1,36 @@
+.text-input {
+  width: 100%;
+  outline: none;
+  border: 2px solid #5c8ddb71;
+  border-radius: 5px;
+  font-size: 1.2em;
+  padding: 0.2em;
+  margin: 0.2em;
+
+  &:focus {
+    border: 2px solid #5c8ddb71;
+    box-shadow: 1px 1px 20px 0 #5c8ddb71;
+  }
+}
+
+.area {
+  min-height: 8em;
+}
+
+.input-wrapper {
+  width: 100%;
+  margin: 0.2em;
+}
+
+.err-text {
+  font-size: 0.8em;
+  bottom: -1.3em;
+  padding-left: 0.5em;
+  color: red;
+  z-index: 10;
+}
+
+.error, .error:focus{
+  border: 2px solid #db805c;
+  box-shadow: 1px 1px 20px 0 #db805c;
+}

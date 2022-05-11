@@ -1,0 +1,40 @@
+.card {
+  overflow: hidden;
+  box-shadow: 1px 1px 20px 0px #3b36367a;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 250px;
+  transition: transform 200ms ease-in;
+
+  // &:hover {
+  //   transform: scale(1.02);
+  // }
+}
+
+.title {
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+.text-content {
+  padding: 1rem;
+}
+
+.card-body {
+  height: 100%;
+  position: relative;
+}
+
+.title-container {
+  height: 40%;
+  width: 80%;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 60%;
+}

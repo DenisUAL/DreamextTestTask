@@ -1,0 +1,17 @@
+.new-post-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 2.5em;
+  max-width: 700px;
+  min-width: 400px;
+  align-items: center;
+}
+
+.warning-text {
+  color: red;
+}
+
+.btn-container {
+  margin: 0.7em;
+}

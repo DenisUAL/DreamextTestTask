@@ -1,0 +1,34 @@
+.card-menu-btn {
+  color: black;
+  font-size: 1.5em;
+  position: absolute;
+  top: 0.1rem;
+  right: 0.1rem;
+  padding: 5px;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.delete {
+  color: red;
+}
+
+.cancel {
+  color: red;
+  font-size: 1rem;
+  top: 4.1rem;
+}
+
+.edit,
+.save {
+  color: darkblue;
+  top: 2rem;
+}
+
+.disabled {
+  color: grey;
+  pointer-events: none;
+}

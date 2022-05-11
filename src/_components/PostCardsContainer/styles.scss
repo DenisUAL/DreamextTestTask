@@ -1,0 +1,7 @@
+.post-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 25rem));
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
